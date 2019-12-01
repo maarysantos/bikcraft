@@ -13,6 +13,9 @@ p{
     line-height: 20px;
 }
 
+img {
+    display:block;
+}
 .subtitulo{
     font-weight: bold;
     font-size: 24px;
@@ -96,9 +99,9 @@ p{
     background-size: cover;
     height: 380px;
     width: 100%;
-    margin-top:94px;
+    margin-top: 92px;
     text-align:center;
-    padding-top:120px;
+    padding-top: 120px;
 }
 
 .introducao h1 {
@@ -208,3 +211,42 @@ p{
 .portfolio .call p{
     color: #fff;
 }
+
+/*Qualidade*/
+
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade img{
+    margin: 0  auto;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size:18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top:20px;
+    text-align: center;
+ }
+ 
+ .qualidade_lista li h3:after{
+     content: " ";
+     display: block;
+     width: 60px;
+     height: 3px;
+     background:#000;
+     margin: 6px auto;
+ }
+ 
+ .qualidade_lista p{
+     padding: 10px 20px 20px 20px;
+     text-align: center;
+ }
