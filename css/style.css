@@ -13,6 +13,26 @@ p{
     line-height: 20px;
 }
 
+.subtitulo{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color:#000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:#000;
+    margin: 8px auto ;
+}
+
 .btn {
     border:3px solid var(--bg_menu);
     padding:10px 30px;
@@ -28,13 +48,20 @@ p{
     color:#fff;
     border: 3px solid #fff;
 }
+
+.btn-preto:hover {
+    color:#000;
+    border-color: #000;
+}
+
 /*Header*/
 .header {
     width: 100%;
-    background:var(--bg_menu);
+    background: var(--bg_menu);
     padding: 15px 0;
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 
 .header_menu {
@@ -109,3 +136,51 @@ p{
     letter-spacing: .1em;
 }
 
+/*Produtos */
+.produtos {
+    padding:60px 0;
+}
+
+.produtos_lista li {
+    background: var(--bg_menu);
+}
+
+.produtos_lista li h3 {
+   font-weight: bold;
+   font-size:18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   letter-spacing: .1em;
+   margin-top:20px;
+   text-align: center;
+}
+
+.produtos_lista li h3:after{
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:#000;
+    margin: 2px auto;
+}
+
+.produtos_lista p{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+}
+
+.produtos_icone {
+    background:#000;
+    text-align: center;
+    padding: 20px;
+}
+
+.call {
+    clear:both;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.call p{
+    margin-bottom:20px;
+}
