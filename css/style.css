@@ -148,6 +148,10 @@ img {
     background: var(--bg_menu);
 }
 
+.produtos_lista li img {
+    margin: 0 auto;
+}
+
 .produtos_lista li h3 {
    font-weight: bold;
    font-size:18px;
@@ -218,6 +222,22 @@ img {
     padding: 60px 0;
 }
 
+.qualidade:after {
+    content: "";
+    display: block;
+    width:634px;
+    height: 83px;
+    background: url("../img/linhas.png") no-repeat center;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade_lista{
+    padding-top: 20px
+}
+
 .qualidade img{
     margin: 0  auto;
 }
@@ -250,3 +270,59 @@ img {
      padding: 10px 20px 20px 20px;
      text-align: center;
  }
+
+ /* Quebra */
+ .quebra{
+     width: 100%;
+     height: 220px;
+     background: url("../img/bg-footer.jpg") no-repeat center;
+     background-size: cover;
+     text-align: center;
+ }
+
+ .quebra .quote-externo{
+     max-width: 400px;
+     padding-top: 40px;
+ }
+
+ /*footer*/
+
+ .footer {
+     width: 100%;
+     background: #000;
+     color: #fff;
+     padding: 20px 0;
+ }
+
+
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--bg_menu);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:var(--bg_menu);
+    margin: 2px 0;
+}
+
+.redes-lista {
+    color: var(--bg_menu);
+}
+
+.redes-lista ul li a {
+    border: 3px solid var(--bg_menu);
+    display: block;
+    padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #fff;
+}
