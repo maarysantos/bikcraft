@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/responsivo.css">
-
+        <script>document.documentElement.classList.add("js");</script>
 
         <title>Bikcraft - Portfólio</title>
 
@@ -43,17 +43,26 @@
                     </div>
                 </section>
             <!-- FIM INTRODUÇÃO-INTERNA -->
-        <section class="container">
+        <section class="container" data-slide="quote">
             <blockquote class="quote_clientes">
                 <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
                 <cite>Bernado</cite>
+            </blockquote>
+
+            <blockquote class="quote_clientes" >
+                <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
+                <cite>Fernando</cite>
+            </blockquote>
+
+            <blockquote class="quote_clientes">
+                <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
+                <cite>Ana</cite>
             </blockquote>
         </section>
         
       <!-- INICIO Portfolio-->
       <section class="portfolio">
-            <div class="container">
-                <h2 class="subtitulo"> Portfólio </h2>
+            <div class="container" data-slide="portfolio">
                 <ul class="portfolio_lista">
                     <li class="grid-8">
                         <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro">
@@ -65,10 +74,22 @@
                           <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro">
                     </li>
                 </ul>
-                <div class="call">
+
+                <ul class="portfolio_lista">
+                    <li class="grid-8">
+                         <img src="img/portfolio/passeio.jpg" alt="Bicicleta Retro">
+                    </li>
+                    <li class="grid-8">
+                        <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro">
+                    </li>
+                    <li class="grid-16">
+                          <img src="img/portfolio/esporte.jpg" alt="Bicicleta Retro">
+                    </li>
+                </ul>
+               <!-- <div class="call">
                       <p>Clique aqui e veja mais detalhes dos produtos</p>
                       <a href="produtos.html" class="btn">Produtos</a>
-              </div>
+              </div> -->
             </div>
         </section>
 
@@ -116,6 +137,8 @@
         </div>
       </footer>
 
+      <script src="./js/plugins/simple-slide.js"></script>;
+      <script src="./js/script.js"></script>;
 
 </body>
 </html>
